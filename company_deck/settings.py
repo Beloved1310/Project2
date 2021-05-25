@@ -153,7 +153,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(SETTINGS_PATH, 'static'),
 )
-STATIC_ROOT = '/var/www/Adeoluwafisayomi/static'
+STATIC_ROOT = '/var/www/adeoluwafisayo/static'
 
 
 #SMTP Configuration
