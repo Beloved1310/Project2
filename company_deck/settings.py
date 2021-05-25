@@ -155,7 +155,7 @@ STATICFILES_DIRS = (
 )
 STATIC_ROOT = '/var/www/adeoluwafisayo/static'
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 #SMTP Configuration
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
