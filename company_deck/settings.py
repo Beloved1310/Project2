@@ -26,11 +26,7 @@ SECRET_KEY = '5a57qg6dou@z0^u+n1o*sxq&enx(0ao7g&g@3y2!du(u#x+5rl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = [
-    # 'localhost',
-    # '127.0.0.1',
-    # 'aspy-jobs.azurewebsites.net'
-# ]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -87,22 +83,7 @@ TEMPLATE_DIRS = (
 WSGI_APPLICATION = 'company_deck.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-    # 'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        # 'NAME': 'Fisayo',
-        # 'USER': 'aspy@aspy',
-        # 'PASSWORD': 'Classof2020',
-        # 'HOST': 'aspy.postgres.database.azure.com',
-        # 'PORT': ''
-        
-    # }
-# }
 
 DATABASES = {
     'default': {
